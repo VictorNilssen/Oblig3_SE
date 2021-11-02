@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class LeapYearTest {
         @Test
         public void leapyear_if_divided_by_4_and_not_100(){
-            assertFalse(leapyear.isLeapYear(4));
+            assertTrue(leapyear.isLeapYear(4));
             assertFalse(leapyear.isLeapYear(200));}
 
         @Test
